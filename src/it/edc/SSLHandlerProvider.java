@@ -16,8 +16,8 @@ public class SSLHandlerProvider {
     private static final String ALGORITHM="ssl.KeyManagerFactory.algorithm";
     private static final String KEYSTORE= "letsencrypt.jks";
     private static final String KEYSTORE_TYPE="JKS";
-    private static final String KEYSTORE_PASSWORD= "Em@43Dc";
-    private static final String CERT_PASSWORD="Em@43Dc";
+    private static final String KEYSTORE_PASSWORD= "xxx";
+    private static final String CERT_PASSWORD="xxx";
     private  static SSLContext serverSSLContext =null;
 
     public static SslHandler getSSLHandler(){
